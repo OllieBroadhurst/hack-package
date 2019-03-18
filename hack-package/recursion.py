@@ -35,5 +35,5 @@ def reverse(word):
     if n == 1:
         return word
     else:
-        return reverse_word(word[-1]) + reverse_word(word[:-1])
+        return reverse(word[-1]) + reverse(word[:-1])
         n -= 1

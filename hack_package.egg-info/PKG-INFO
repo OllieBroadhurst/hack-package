@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: hack-package
+Version: 0.1
+Summary: EDSA Hackathon recusion and sorting package
+Home-page: https://github.com/OllieBroadhurst/hack-package/
+Author: Oliver Broadhurst
+Author-email: olliebroadhurst@gmail.com
+License: MIT
+Description: ## This is the EDSA hackathon package
+        
+        It consists of two modules: recursion.py and sorting.py
+        recursion.py consists of four recursion functions and the sorting.py module contains four sorting algorithms.
+        
+Platform: UNKNOWN
