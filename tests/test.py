@@ -12,4 +12,4 @@ def test_functions():
 
     assert sorting.bubble_sort(test_list) == [1, 2, 4, 5, 8, 9, 9]
     assert sorting.merge_sort(test_list) == [1, 2, 4, 5, 8, 9, 9]
-    assert sorting.quicksort(test_list) == [1, 2, 4, 5, 8, 9, 9]
+    assert sorting.quick_sort(test_list) == [1, 2, 4, 5, 8, 9, 9]

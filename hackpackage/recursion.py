@@ -1,8 +1,7 @@
 import numpy as np
 def sum_array(array):
 
-    '''Return sum of all items in array'''
-    array = array.flatten()
+    '''Return sum of all items in array'''    
     n = len(array)
     if len(array) > 1:
         array[0] += array[n-1]
