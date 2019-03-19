@@ -45,7 +45,7 @@ def merge_sort(items):
 
     return merge_sort(items)
 
-def quicksort(items):
+def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
     len_i = len(items)
