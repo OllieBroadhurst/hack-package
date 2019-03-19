@@ -1,4 +1,3 @@
-import numpy as np
 from hackpackage import recursion, sorting
 
 def test_functions():
