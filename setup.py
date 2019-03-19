@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='hack-package',
-    version='0.2',
-    packages=find_packages(exclude=['tests*']),
+    version='0.5',
+    packages=find_packages(exclude=['test*']),
     license='MIT',
     description='EDSA Hackathon recusion and sorting package',
     long_description=open('README.md').read(),
