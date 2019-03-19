@@ -8,10 +8,8 @@ def test_functions():
     assert recursion.factorial(7) == 5040
     assert recursion.reverse('Hello') == 'olleH'
 
-    test_list [5,8,1,2,9,9,4]
+    test_list = [5,8,1,2,9,9,4]
 
     assert sorting.bubble_sort(test_list) == [1, 2, 4, 5, 8, 9, 9]
     assert sorting.merge_sort(test_list) == [1, 2, 4, 5, 8, 9, 9]
     assert sorting.quicksort(test_list) == [1, 2, 4, 5, 8, 9, 9]
-
-print(test_functions())
