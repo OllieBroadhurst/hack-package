@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='hack-package',
-    version='0.9',
+    name='hackpackage',
+    version='1.0',
     packages=find_packages(exclude=['test*']),
     license='MIT',
     description='EDSA Hackathon recursion and sorting package',

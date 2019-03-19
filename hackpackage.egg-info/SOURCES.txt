@@ -1,0 +1,10 @@
+README.md
+setup.py
+hackpackage/__init__.py
+hackpackage/recursion.py
+hackpackage/sorting.py
+hackpackage.egg-info/PKG-INFO
+hackpackage.egg-info/SOURCES.txt
+hackpackage.egg-info/dependency_links.txt
+hackpackage.egg-info/requires.txt
+hackpackage.egg-info/top_level.txt
