@@ -1,5 +1,5 @@
 import numpy as np
-import hackpackage
+from hackpackage import recursion, sorting
 
 def test_functions():
 
