@@ -1,3 +1,4 @@
+import numpy as np
 def sum_array(array):
 
     '''Return sum of all items in array'''
@@ -24,6 +25,8 @@ def factorial(n):
     '''Return n!'''
     if n <= 1:
         return n
+    if n == 0:
+        return 1
     else:
         return n * factorial(n-1)
 
