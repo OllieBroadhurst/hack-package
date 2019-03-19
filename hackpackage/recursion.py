@@ -1,7 +1,7 @@
 import numpy as np
 def sum_array(array):
 
-    '''Return sum of all items in array'''    
+    '''Return sum of all items in array'''
     n = len(array)
     if len(array) > 1:
         array[0] += array[n-1]
@@ -22,7 +22,7 @@ def fibonacci(n):
 def factorial(n):
 
     '''Return n!'''
-    if n <= 1:
+    if n == 1:
         return n
     if n == 0:
         return 1

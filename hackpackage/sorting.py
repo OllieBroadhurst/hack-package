@@ -65,7 +65,7 @@ def quick_sort(items):
         elif i == pivot:
             dup.append(i)
 
-    small = quicksort(small)
-    large = quicksort(large)
+    small = quick_sort(small)
+    large = quick_sort(large)
 
     return small + dup + large
